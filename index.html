@@ -13,35 +13,43 @@
 
     <header>
         <div class="navbar">
+            <div class="mobilemenu">
+                <ul>
+                    <li id="menuicon">
+                        <img src="icons/menu-horizontal.svg" alt="">
+                    </li>
+                    <li><img src="icons/search.png" alt=""></li>
+                </ul>
+            </div>
             <div class="navbar1">
                 <img class="logo"
                     src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31"
                     alt="">
             </div>
-            <span></span>
+
             <div class="azure">
                 <p>Azure</p>
             </div>
             <div class="navitems">
                 <ul>
-                    <li>Explore<img src="icons/down-arrow.png" alt=""></li>
-                    <li>Products<img src="icons/down-arrow.png" alt=""></li>
-                    <li>Solutions<img src="icons/down-arrow.png" alt=""></li>
-                    <li>Pricing<img src="icons/down-arrow.png" alt=""></li>
-                    <li>Partners<img src="icons/down-arrow.png" alt=""></li>
-                    <li>Resources<img src="icons/down-arrow.png" alt=""></li>
+                    <li id="explore">Explore<img src="icons/down-arrow.png" alt=""></li>
+                    <li id="product">Products<img src="icons/down-arrow.png" alt=""></li>
+                    <li id="solution">Solutions<img src="icons/down-arrow.png" alt=""></li>
+                    <li id="pricing">Pricing<img src="icons/down-arrow.png" alt=""></li>
+                    <li id="partner">Partners<img src="icons/down-arrow.png" alt=""></li>
+                    <li id="resources">Resources<img src="icons/down-arrow.png" alt=""></li>
+                    <li id="more">More<img src="icons/down-arrow.png" alt=""></li>
 
                 </ul>
             </div>
             <div class="rightnav">
                 <div class="rightitems">
                     <ul>
-                        <li>Search <img src="icons/search-interface-symbol.png" alt=""></li>
-                        <li>Learn
-                        <li>
-                        <li>Support
-                        <li>
-                        <Li>Contact Sales </Li>
+                        <li id="search">Search</li>
+                        <li id="image"><img src="icons/search.png" alt=""></li>
+                        <li class="notdisplay">Learn</li>
+                        <li class="notdisplay">Support</li>
+                        <Li class="notdisplay">Contact Sales </Li>
                     </ul>
                     <button class="try">
                         Try Azure for free
@@ -53,17 +61,23 @@
                 </div>
             </div>
         </div>
+
     </header>
-
-
+    <div class="navbar one">
+        <span>
+            <h1>Azure <img src="icons/down-arrow.png" alt=""></h1>
+        </span>
+    </div>
 
     <!-- ============= main section ============= -->
 
-
+    <!-- /*poster="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/hp-hero-vp4@4x-static?scl=1"*/ -->
+             
     <main>
         <div class="videoback">
-            <video poster="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/hp-hero-vp4@4x-static?scl=1"
-                preload="auto" data-autoplay="true" muted="playsinline" data-width-now="1440">
+            <video
+                preload="auto" data-autoplay="true" muted="playsinline" data-width-now="1440" data-lazyload="true"
+                playsinline="">
                 <source src="https://s7d2.scene7.com/is/content/microsoftcorp/ACOM-HP-May-Hero-Animated"
                     type="video/mp4">
             </video>
@@ -87,25 +101,26 @@
                 </span>
             </div>
         </div>
-
     </main>
     <div class="mainbody">
-        <div class="nav">
-            <ul>
-                <li id="news">Featured news</li>
-                <li>Solutions</li>
-                <li>Products ans services</li>
-                <li>Resources by role</li>
-                <li> Cusomer Stories</li>
-            </ul>
+        <div class="mainnav">
+            <div class="nav">
+                <ul>
+                    <li id="news">Featured news
+                        <img src="icons/arrow.png" alt="">
+                    </li>
 
-
-            <button class="try">
-                Try Azure for free
-            </button>
+                    <li>Solutions</li>
+                    <li>Products and services</li>
+                    <li>Resources by role</li>
+                    <li> Customer stories</li>
+                </ul>
+                <button class="try">
+                    Try Azure for free
+                </button>
+            </div>
         </div>
-
-
+    </div>
         <div class="bodysection">
             <div class="subbody">
                 <div class="data">
@@ -114,8 +129,9 @@
                 </div>
             </div>
             <div class="cardbody">
+
                 <div class="card">
-                    <div class="cardimage one">
+                    <div class="cardimage">
                         <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Desktop-FeaturedNews-Card1@2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=832&hei=357&qlt=100&fmt=png-alpha&fit=constrain"
                             alt="">
                     </div>
@@ -136,12 +152,12 @@
                 </div>
 
                 <div class="card">
-                    <div class="cardimage two">
+                    <div class="cardimage">
                         <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Desktop-FeaturedNews-Card2@2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=832&hei=357&qlt=100&fmt=png-alpha&fit=constrain"
                             alt="">
                     </div>
                     <div class="carddata">
-                        <h4>Discover new ways to innovate with AI</h4>
+                        <h3>Discover new ways to innovate with AI</h3>
                         <p>Explore Azure AI announcements and learn about Azure AI Studio,
                             a unified platform for building generative AI solutions.</p>
 
@@ -156,12 +172,12 @@
                 </div>
 
                 <div class="card">
-                    <div class="cardimage three">
+                    <div class="cardimage">
                         <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Desktop-FeaturedNews-Card3@2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=832&hei=357&qlt=100&fmt=png-alpha&fit=constrain"
                             alt="">
                     </div>
                     <div class="carddata">
-                        <h4>Power AI solutions at scale</h4>
+                        <h3>Power AI solutions at scale</h3>
                         <p>Take full advantage of the cloud and develop AI apps faster and more efficiently
                             with infrastructure purpose-built for AI.</p>
                         <span>
@@ -175,48 +191,512 @@
                     </div>
                 </div>
             </div>
-            <div class="subbody">
+            <div class="subbody two">
                 <div class="data">
                     <p>SOLUTIONS</p>
                     <h1>Find solutions for putting your ideas into action</h1>
                 </div>
             </div>
-            <div class="development">
-                 <button>Featured solutions</button>
-                 <button>Cloud migration</button>
-                 <button>Data transformation</button>
-                 <button id="app">App development</button>
-                <button>AI</button>
+
+            <div class="maindevelop">
+
+                <div class="development">
+                    <button id="app">Featured solutions</button>
+                    <button>Cloud migration</button>
+                    <button>Data transformation</button>
+                    <button>App development</button>
+                    <button>AI</button>
+                </div>
+                <div class="arrowbtn one">
+
+                    <button>
+                        <img src="icons/arrow_right.png" alt="">
+                    </button>
+                </div>
             </div>
-            
+
             <div class="mainbuild">
                 <div class="subbuild">
-                    <div class="build">
-                        <span>  <h1>Build and modernize intelligent apps</h1>
-                            <img src="" alt="">
+                    <div class="subone one">
+                        <div class="build one">
+                            <span>
+                                <h1>AI
+                                    <img id="toparrow" src="icons/down-arrow.png" alt="">
+                                </h1>
                             </span>
-                            <p>Build AI-powered, intelligent apps and enhance your critical solutions with generative AI.</p>
-                            <a href="Learn more"></a>
+                            <p>Build intelligent apps at enterprices scale with the Azure AI portfolio.
+                            </p>
+                            <a href="">Explore Azure AI solutions</a>
+                        </div>
+                        <div class="buildimage">
+                            <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Desktop-Solutions-Featured-Tab1-VideoThumbUpdate?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1312&hei=1056&qlt=100&fmt=png-alpha&fit=constrain"
+                                alt="">
+                            <div class="discover">
+                                <button>
+                                    <img src="icons/icons8-play-32.png" alt="">
+                                </button>
+                            </div>
+
+                        </div>
                     </div>
-                    <div class="build">
-                        <h1>Modern application development</h1>
+                    <div class="subone">
+                        <div class="build">
+                            <h1>Build and modernize intelligent apps<img src="icons/down-arrow.png" alt=""></h1>
+                        </div>
                     </div>
-                    <div class="build">
-                       <h1>DevOps</h1>
+                    <div class="subone">
+                        <div class="build">
+                            <h1>DevOps<img src="icons/down-arrow.png" alt=""></h1>
+                        </div>
                     </div>
-                    <div class="build">
-                        <h1>Integration services</h1>
+                    <div class="subone">
+                        <div class="build">
+                            <h1>Azure managed databases<img src="icons/down-arrow.png" alt=""></h1>
+                        </div>
                     </div>
+                    <div class="subone">
+                        <div class="build">
+                            <h1>Cloud-scale analytics<img src="icons/down-arrow.png" alt=""></h1>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="buildimage">
-                    <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Desktop-Solutions-Tab4-image1@2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1312&hei=1056&qlt=100&fit=constrain" alt="">
+
+            </div>
+            <div id="common">
+                <span class="commonbutton">
+                    <button>
+                        <img src="icons/arrow_right.png" alt="">
+                    </button>
+                    <p> View all solutions (40+)</p>
+                </span>
+            </div>
+
+            <div class="subbody two">
+                <div class="data">
+                    <p>PRODUCTS AND SERVICES</p>
+                    <h1>Explore tools for bringing your vision to life</h1>
+                </div>
+            </div>
+            <div class="maindevelop">
+                <div class="development two">
+                    <button id="app">Featured</button>
+                    <button>AI + machine learning</button>
+                    <button>Compute</button>
+                    <button>Containers</button>
+                    <button>HYbrid + multicloud</button>
+                    <button>IoT</button>
+                </div>
+
+                <div class="arrowbtn one">
+
+                    <button>
+                        <img src="icons/arrow_right.png" alt="">
+                    </button>
                 </div>
             </div>
 
-        </div>
 
+            <div class="explorediv">
+                <div class="expone">
+                    <div class="phi">
+                        <h1>Phi-3 open models</h1>
+                        <p>Build with the most capable and cost-effective samll language models (SLMs) available.</p>
+                        <button class="phibutton">Explore the product</button>
+                    </div>
+
+
+
+                    <div class="azureapps">
+                        <div class="cards">
+                            <div class="cdata">
+                                <div class="cimage">
+                                    <img src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/ProductService-icons-AzureAISearch?resMode=sharp2&op_usm=1.5,0.65,15,0&qlt=100&fit=constrain"
+                                        alt="">
+                                </div>
+                                <h1>Azure AI search</h1>
+                                <p>Deliver accurate, hyper-personalized responses in your AI applications</p>
+
+                            </div>
+                            <div class="link">
+                                <a href="">Explore the product</a>
+                            </div>
+                        </div>
+
+
+
+                        <div class="cards">
+                            <div class="cdata">
+                                <div class="cimage">
+                                    <img src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Product-logos-AzureAIStudio?resMode=sharp2&op_usm=1.5,0.65,15,0&qlt=100&fit=constrain"
+                                        alt="">
+                                </div>
+
+                                <h1>Azure AI Studio</h1>
+                                <p>Build, evaluate, and deploy generative AI solutions and custom copilots. </p>
+
+                            </div>
+                            <div class="link">
+                                <a href="">Explore the product</a>
+                            </div>
+                        </div>
+                        <div class="cards">
+                            <div class="cdata">
+                                <div class="cimage">
+                                    <img
+                                        src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/ProductService-icons-AzureOpenAIService?resMode=sharp2&op_usm=1.5,0.65,15,0&qlt=100&fit=constrain">
+                                </div>
+
+                                <h1>Azure OpenAI Service</h1>
+                                <p>Apply advanced coding and language models to a variety of use cases. </p>
+
+                            </div>
+                            <div class="link">
+                                <a href="">Explore the product</a>
+                            </div>
+                        </div>
+
+                        <div class="cards">
+                            <div class="cdata">
+                                <div class="cimage">
+                                    <img src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/ProductService-icons-AzureKubernetesService?resMode=sharp2&op_usm=1.5,0.65,15,0&qlt=100&fit=constrain"
+                                        alt="">
+                                </div>
+
+                                <h1>Azure Kubernetes Service (AKS)</h1>
+                                <p> Build and scale apps with managed Kubernetes.</p>
+
+                            </div>
+                            <div class="link">
+                                <a href="">Explore the product</a>
+                            </div>
+                        </div>
+
+                        <div class="cards">
+                            <div class="cdata">
+
+                                <div class="cimage">
+                                    <img src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Products-Icon-AzureAppService?resMode=sharp2&op_usm=1.5,0.65,15,0&qlt=100&fit=constrain"
+                                        alt="">
+                                </div>
+                                <h1>Azure App Service</h1>
+                                <p>Expand apps to additional locations. </p>
+
+                            </div>
+                            <div class="link">
+                                <a href="">Explore the product</a>
+                            </div>
+                        </div>
+
+
+
+                        <div class="cards">
+                            <div class="cdata">
+
+                                <div class="cimage">
+                                    <img src="  https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/ProductService-icons-MicrosoftFabric?resMode=sharp2&op_usm=1.5,0.65,15,0&qlt=100&fit=constrain
+                              " alt="">
+                                </div>
+                                <h1>Microsoft Fabric</h1>
+                                <p>Bring data and analytics services together on an AI-powered platform.</p>
+
+                            </div>
+                            <div class="link">
+                                <a href="">Explore the product</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="common">
+                <span class="commonbutton">
+                    <button>
+                        <img src="icons/arrow_right.png" alt="">
+                    </button>
+                    <p> See all products (200+)</p>
+                </span>
+            </div>
+
+
+            <div class="maingartner one">
+
+                <div class="subgartner">
+                    <div class="gartdata">
+                        <h1> See why Gartner named Microsoft a Leader </h1>
+                        <p>Discover why Microsoft was named a Leader and positioned furthest to the right for
+                            Completeness
+                            of Vision in the 2023 Gartner® Magic Quadrant™ for Strategic Cloud Platform Services (SCPS).
+                        </p>
+                        <button id="samebutton">Read the blog</button>
+                    </div>
+
+                    <div class="gartimage">
+                        <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gartner-accouncement-1_newimage?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=656&hei=492&qlt=100&fmt=png-alpha&fit=constrain"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="transform">
+                <div class="subtransform">
+                    <p>RESOURCES BY ROLE</p>
+                    <h1>Transform the way you work</h1>
+                    <div class="developers">
+                        <ul>
+                            <li>IT Professionals</li>
+                            <li>Developers</li>
+                            <li>Data analysts</li>
+                            <li>Business leaders</li>
+                            <li>Starups</li>
+                            <li>Students</li>
+                        </ul>
+                    </div>
+                    <h1 id="opt">Optimize your infrastructure with popular Azure solutions and services.</h1>
+                    <span class="commonbutton">
+                        <button>
+                            <img src="icons/arrow_right.png" alt="">
+                        </button>
+                        <p> Explore migration solution</p>
+                    </span>
+
+                    <div class="developerimage">
+                        <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Resources-tab1-ITProfessionals-4x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1664&hei=936&qlt=100&fmt=png-alpha&fit=constrain"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="global">
+
+                <div class="gimage">
+                    <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Desktop-AzureRegions-2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=3200&hei=983&qlt=95&fmt=png-alpha&fit=constrain"
+                        alt="">
+
+                </div>
+                <div class="globedata">
+                    <h1>Azure global infrastructure</h1>
+                    <p>Go beyond the limits of on-premises datacenters with more regions than any other provider.
+                    </p>
+                    <button id="samebutton">Explore blog</button>
+                </div>
+            </div>
+
+
+            <div class="customer">
+                <div class="subbody">
+                    <div class="data">
+                        <p>CUSTOMER STORIES</p>
+                        <h1>See how customers are innovating with Azure</h1>
+                    </div>
+                </div>
+                <div class="maingartner two">
+                    <div class="subgartner">
+                        <div class="customerdata">
+                            <div class="subone">
+                                <div id="house">
+                                    <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Customer-logos-LEGO-@2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=174&hei=75&qlt=100&fmt=png-alpha&fit=constrain"
+                                        alt="">
+                                </div>
+                                <h3>LEGO House takes the physical brick to new frontiers with inventive, interactive
+                                    digital experiences built with Azure solutions.</h3>
+                            </div>
+                            <div class="subtwo">
+                                <p>Products</p>
+                                <div id="iotlinks">
+                                    <span>
+                                        <img src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Customer-LEGO-Product-AzureIoTEdge?resMode=sharp2&op_usm=1.5,0.65,15,0&qlt=85"
+                                            alt="">
+                                        <a href="">Azure IoT Edge</a>
+                                    </span>
+                                    <span>
+                                        <img src="" alt="">
+                                        <a href="">Azure Kubernetes Service (AKS)</a>
+                                    </span>
+                                </div>
+                                <button id="samebutton">Case study</button>
+                            </div>
+                        </div>
+
+
+                        <div class="gartimage">
+                            <img
+                                src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Customer-img-LEGO-2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=664&hei=547&qlt=100&fmt=png-alpha&fit=constrain">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="gridimage">
+                    <ul>
+                        <li><img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Customer-logos-LEGO-@2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=271&hei=116&qlt=100&fit=constrain"
+                                alt=""></li>
+                        <li><img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Customer-logos-SIEMENS-@2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=348&hei=150&qlt=100&fit=constrain"
+                                alt=""></li>
+                        <li><img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Customer-logos-HEINEKEN-@2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=208&hei=100&qlt=100&fit=constrain"
+                                alt=""></li>
+                        <li><img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/customer-logo-gm-2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=200&hei=100&qlt=100&fit=constrain"
+                                alt=""></li>
+                        <li><img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/customer-logo-unilever-2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=208&hei=100&qlt=100&fit=constrain"
+                                alt=""></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cardbody">
+                <div class="card">
+
+                    <div class="carddata">
+                        <h3>
+                            Start building on Azure free
+
+                        </h3>
+                        <p>Get free services and a $200 credit to explore Azure for up to 30 days.
+                        </p>
+                        <span>
+                            <button>
+                                <img src="icons/arrow_right.png" alt="">
+                            </button>
+                            <p> Try Azure for free</p>
+                        </span>
+
+                    </div>
+                </div>
+
+                <div class="card">
+
+                    <div class="carddata">
+                        <h3> Connect with a sales specialist
+                        </h3>
+                        <p>Chat with or call a sales specialist for personalized guidance.</p>
+
+                        <span>
+                            <button>
+                                <img src="icons/arrow_right.png" alt="">
+                            </button>
+                            <p> Get in Touch</p>
+                        </span>
+
+                    </div>
+                </div>
+
+                <div class="card">
+
+                    <div class="carddata">
+                        <h3>New to Azure? Learn at your own pace</h3>
+                        <p>Learn cloud computing basics with self-paced modules on Microsoft Learn.</p>
+                        <span>
+                            <button>
+                                <img src="icons/arrow_right.png" alt="">
+                            </button>
+                            <p> Get Started</p>
+                        </span>
+
+                        </h4>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="apps">
+                <ul>
+                    <li id="getazure"><span><img
+                                src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/acom_social_icon_azure"
+                                alt="">
+                            <p>Get the Azure mobile app</p>
+                        </span></li>
+                    <li><img src="icons/x.svg" alt=""></li>
+                    <li><img src="icons/insta.svg" alt=""></li>
+                    <li><img src="icons/linkedin.svg" alt=""></li>
+                    <li><img src="icons/youtube.svg" alt=""></li>
+                </ul>
+
+            </div>
+        </div>
     </div>
 
+    <footer>
+        <div class="footer1">
+            <ul>
+                <li>Explore Azure</li>
+                <li> What is Azure?</li>
+                <li> Get started with Azure</li>
+                <li> Global infrastructure</li>
+                <li> Datacenter regions</li>
+                <li> Trust your cloud</li>
+                <li> Customer enablement</li>
+                <li> Customer stories</li>
+            </ul>
+            <ul>
+                <li>Products and pricing</li>
+                <li> Products</li>
+                <li> Azure pricing</li>
+                <li> Free Azure services</li>
+                <li> Flexible purchase options</li>
+                <li> Cloud economics</li>
+                <li> Optimize your costs</li>
+            </ul>
+            <ul>
+                <li>Solutions and support</li>
+                <li> Solutions</li>
+                <li> Resources for accelerating growth</li>
+                <li> Solution architectures</li>
+                <li> Support</li>
+                <li> Azure demo and live Q&A</li>
+            </ul>
+            <ul>
+                <li>Partners</li>
+                <li> Azure Marketplace</li>
+                <li>Find a partner</li>
+                <li>Join ISV Success</li>
+            </ul>
+            <ul>
+                <li>Resources</li>
+                <li> Training and certifications</li>
+                <li> Documentation</li>
+                <li>Blog</li>
+                <li>Developer resources</li>
+                <li>Students</li>
+                <li> Events and Webinars</li>
+                <li>Analyst reports, white papers, and e-books</li>
+                <li> Videos</li>
+            </ul>
+            <ul>
+                <li>Cloud computing</li>
+                <li> What is cloud computing?</li>
+                <li> What is cloud migration?</li>
+                <li> What is a hybrid cloud?</li>
+                <li> What is AI?</li>
+                <li> What is PaaS?</li>
+                <li> What is IaaS?</li>
+                <li>What is SaaS?</li>
+                <li> What is DevOps?</li>
+            </ul>
+        </div>
+        <div class="footerbottom">
+            <div class="foot1">
+                <span><img src="icons/world.png" alt=""> English (United States)</span>
+                <span><img src="icons/tick-n-cross.svg" alt="">Your Privacy Choices</span>
+                <span>Consumer Health Privacy</span>
+            </div>
+            <div class="foot2">
+                <ul>
+                    <li>Sitemap</li>
+                    <li>Contact Microsoft</li>
+                    <li> Privacy</li>
+                    <li> Terms of use</li>
+                    <li> Trademarks </li>
+                    <li>Safety & eco </li>
+                    <li>Recycling </li>
+                    <li>About</li>
+                    <li> our ads </li>
+
+
+                    <li>© Microsoft 2024 </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
