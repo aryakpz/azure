@@ -205,7 +205,7 @@ header {
     padding-left: 5px;
     filter: invert(0);
     font-weight: 500;
-    margin-bottom: -2.4px;
+    margin-bottom: -2.8px;
 }
 
 .navitems #more {
@@ -534,7 +534,7 @@ video {
 }
 
 .subbody {
-    padding-top: 82px;
+    padding-top: 83px;
     margin-inline: auto;
     max-width: 1328px;
     box-sizing: content-box;
@@ -644,12 +644,12 @@ video {
 .card span button {
     border: none;
     border-radius: 8px;
-    background-color: rgba(3, 130, 230, 10);
+    background-color: #0078d4;
     height: 35px;
     padding-left: 10px;
     padding-right: 9px;
-    padding-top: 3px;
-    padding-bottom: 7px;
+    padding-top: 4px;
+    padding-bottom: 5px;
     margin-right:-10px;
 
 
@@ -677,6 +677,7 @@ video {
 
 .card span img {
     width: 16px;
+    height: 16px;
     filter: invert(1);
 
 }
@@ -1660,6 +1661,14 @@ video {
     padding-bottom: 18px;
 
 }
+.subnext .card 
+{
+    border-radius: 25px;
+}
+.subnext .card .btn{
+    padding-top: 0;
+    margin-top: -2px;
+}
 .subnext .card .carddata{
     display: flex;
     flex-flow: column;
@@ -1667,7 +1676,13 @@ video {
     flex:1;
     padding-top: 1px;
     padding-right: 25px;
-    padding-bottom: 2px;
+ 
+    
+}
+.subnext .card span p{
+padding-top: 4x;
+letter-spacing: -1px;
+font-size: 14px;
 }
 .carddata h3{
     letter-spacing: -1.2px;
@@ -1677,16 +1692,18 @@ video {
    
    }
 
-
-   .carddata span{
-    margin-bottom: -5px;
-   }
-
    .carddata p{
     letter-spacing: -0.5px;
     font-size: 16px;
     line-height: 24px;
    
+   
+   }
+
+   .carddata span button{
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-right:-8px;
    }
 .apps ul li img {
     width: 24px;
@@ -1770,9 +1787,9 @@ footer ul li {
     margin: 0 auto;
     box-sizing: border-box;
     width: 100%;
-    padding-left:2.95%;
+    padding-left:2.8%;
     padding-top: 18px;
-    padding-right: 6.3%;
+    padding-right: 6.35%;
   
 }
 
@@ -1780,13 +1797,13 @@ footer ul li {
     font-size: 14.6px;
     font-family: "sreg";
     font-weight: 500;
-    line-height: 1.89;
+    line-height: 1.83;
     letter-spacing: .2px;
 }
 
 
 .footer1 ul li {
-    line-height: 2.9;
+    line-height: 2.91;
     font-family: "sbold";
     font-size: 11px;
     /* padding:9px 0; */
@@ -1808,6 +1825,7 @@ footer ul li {
 .footer1 .ffour{
     padding-left:42px;
 }
+
 
 
 
@@ -1835,6 +1853,9 @@ footer ul li {
 .footerbottom .foot1{
     float: left;
     padding-top: 12px;
+}
+.footerbottom .foot1 #spanone{
+margin-top: -20px;
 }
 .footerbottom .foot2{
     float: right;
