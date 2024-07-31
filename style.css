@@ -2822,10 +2822,16 @@ footer ul li {
     .phi {
         aspect-ratio: 5/4;
     }
+ 
+  
+}
 
-    .videoback .maindata {
-        height: 1000px;
-        align-items: center;
+@media screen  and (max-width:412px){
+    main {
+        height: 550px;
+    }
 
+    .subdata{
+        padding-left: 10px;
     }
 }
